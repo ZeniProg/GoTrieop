@@ -1,0 +1,40 @@
+.header
+  position: absolute
+  width: 100%
+  top: 0
+  padding: 45px 0
+
+  &__wrap
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  &__link
+    @extend .menu__link
+    margin-right: 25px
+    &:last-child
+      margin: 0
+
+    &--bg-orange
+      padding: 13px 44px
+      background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF
+      border-radius: 100px
+
+.menu
+
+  &__list
+    display: flex
+    align-items: center
+
+  &__item
+    margin-right: 80px
+    &:last-child
+      margin: 0
+
+  &__link
+    font-family: 'Poppins', sans-serif
+    font-weight: 500
+    font-size: 15px
+    line-height: 22px
+    text-decoration: none
+    color: #fff
