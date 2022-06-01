@@ -17,8 +17,12 @@
 
     &--bg-orange
       padding: 13px 44px
-      background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF
+      background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%)
       border-radius: 100px
+      border: 3px solid transparent
+      &:hover
+        border: 3px solid #ff7b4e
+        background: transparent
 
 .menu
 
@@ -38,3 +42,6 @@
     line-height: 22px
     text-decoration: none
     color: #fff
+    transition: all .2s
+    &:hover
+      color: #ffffffc9
